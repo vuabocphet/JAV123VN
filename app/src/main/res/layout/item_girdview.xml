@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="wrap_content"
+    >
+
+
+
+    <ImageView
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/spin_kit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+         />
+
+
+    <TextView
+
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="5"
+        android:ellipsize="end"
+        android:id="@+id/view"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="@font/x"
+        android:textSize="15sp"
+        android:layout_below="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anh thợ điện đẹp trai"/>
+    <TextView
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="5"
+        android:ellipsize="end"
+        android:id="@+id/txt"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="@font/x"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:layout_below="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anh thợ điện đẹp trai"/>
+
+
+
+</RelativeLayout>
